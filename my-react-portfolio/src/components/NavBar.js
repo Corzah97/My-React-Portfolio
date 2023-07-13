@@ -43,13 +43,13 @@ export const NavBar = () => {
                         <Nav.Link href="#About Me" className={activeLink === 'about me' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about me')} >About Me</Nav.Link>
                         <Nav.Link href="#Projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')} >Projects</Nav.Link>
                         <Nav.Link href="#Contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')} >Contact</Nav.Link>
-                        <Nav.Link href="#Resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')} >Resume</Nav.Link>
+                        {/* <Nav.Link href="#Resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')} >Resume</Nav.Link> */}
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/corey-boughton-707a10275/"><img src={navIcon1} alt="" /></a>
+                <a href="https://github.com/Corzah97?tab=repositories"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.instagram.com/corzah97/"><img src={navIcon3} alt="" /></a>
               </div>
               <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
             </span>
